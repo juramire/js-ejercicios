@@ -1,0 +1,9 @@
+:root { --gap: .5rem; }
+body { font-family: system-ui, sans-serif; margin: 2rem; display: grid; place-items: center; }
+.calc { width: 320px; display: grid; gap: var(--gap); }
+.pantalla { font-size: 2rem; text-align: right; padding: .6rem; }
+.grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--gap); }
+button { padding: .8rem; font-size: 1.1rem; border: 1px solid #ddd; border-radius: .5rem; background: #fff; cursor: pointer; }
+button:hover { background: #f5f5f5; }
+.full { grid-column: 1 / -1; }
+

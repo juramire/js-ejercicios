@@ -1,0 +1,6 @@
+body { font-family: system-ui, sans-serif; margin: 2rem; }
+main { display: grid; gap: 1rem; max-width: 600px; }
+#titulo { color: #333; }
+button { padding: .6rem 1rem; border: 1px solid #ccc; border-radius: .5rem; cursor: pointer; }
+button:hover { background: #f5f5f5; }
+

@@ -1,0 +1,13 @@
+{
+  "name": "js-ejercicios",
+  "private": true,
+  "workspaces": ["ejercicios/*"],
+  "scripts": {
+    "e:01": "npm --workspace ejercicios/01-hola-mundo-node-js run dev",
+    "e:03": "npm --workspace ejercicios/03-dom-hola-mundo-web-js run dev"
+  }
+}
+
+
+
+
