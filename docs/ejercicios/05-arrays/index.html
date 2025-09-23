@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>05 · Operaciones con arrays</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="volver">
+    <a href="../../index.html">← Volver al índice</a>
+  </nav>
+  <main class="app">
+    <h1>05 · Operaciones con arrays</h1>
+    <p class="intro">
+      Gestiona la lista de elementos utilizando los botones disponibles para practicar los métodos más comunes de los
+      arrays.
+    </p>
+
+    <form id="formulario" class="formulario">
+      <label for="nuevoElemento">Añadir elemento</label>
+      <div class="campo">
+        <input id="nuevoElemento" type="text" placeholder="Escribe un elemento" required />
+        <button type="submit">Agregar</button>
+      </div>
+    </form>
+
+    <section class="acciones" aria-label="Acciones sobre la lista">
+      <button type="button" data-accion="ordenar">Ordenar A-Z</button>
+      <button type="button" data-accion="invertir">Invertir orden</button>
+      <button type="button" data-accion="eliminar">Eliminar último</button>
+      <button type="button" data-accion="vaciar">Vaciar lista</button>
+    </section>
+
+    <section class="resultado">
+      <h2>Elementos actuales</h2>
+      <p id="resumen" class="resumen"></p>
+      <ul id="lista" class="lista" aria-live="polite"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
