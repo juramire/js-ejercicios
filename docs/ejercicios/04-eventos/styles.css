@@ -1,0 +1,15 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem;
+}
+
+button {
+  padding: .6rem 1rem;
+  cursor: pointer;
+  border-radius: .5rem;
+}
+
+p {
+  color: #333;
+  font-weight: bold;
+}
