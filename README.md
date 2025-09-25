@@ -8,9 +8,9 @@ Repositorio con ejercicios **básicos** de JavaScript, HTML y CSS para uso en cl
 ## Cómo ver los ejercicios
 
 ### Opción A) GitHub Pages (recomendado para el alumnado)
-- Página principal: **`https://<tuusuario>.github.io/js-ejercicios/`**
+- Página principal: **`https://juramire.github.io/js-ejercicios/`**
 - Cada ejercicio tiene su ruta propia, por ejemplo:  
-  `https://<tuusuario>.github.io/js-ejercicios/ejercicios/01-hola-dom/`
+  `https://juramire.github.io/js-ejercicios/ejercicios/01-hola-dom/`
 
 > La web publica directamente el contenido de la carpeta `docs/`.
 
@@ -66,37 +66,6 @@ js-ejercicios/
    `docs/ejercicios/04-eventos/`
 
 > Los enlaces exactos están en `docs/index.html` (portada publicada en GitHub Pages).
-
----
-
-## ➕ Cómo añadir un nuevo ejercicio
-
-1. Crea la carpeta (nomenclatura `NN-descripcion`):
-   ```
-   docs/ejercicios/05-arrays-y-dom/
-   ```
-2. Dentro, crea `index.html`, `styles.css`, `script.js`.
-3. Añade el enlace en `docs/index.html`.
-4. **Commit y push** desde la raíz del repo:
-   ```bash
-   git add .
-   git commit -m "feat: ejercicio 05 · Arrays y DOM"
-   git push
-   ```
-5. Espera 1–2 minutos a que GitHub Pages actualice.
-
----
-
-## FAQ
-
-**¿Por qué no hay comandos `npm run` ni `package.json`?**  
-Porque estos ejercicios son **estáticos** y se pueden abrir directamente en el navegador. Cuando pasemos a proyectos con **TypeScript**, **módulos ES**, o frameworks, añadiremos de nuevo `package.json` y scripts (posiblemente con Vite).
-
-**Veo un botón / texto “Run” en GitHub, ¿sirve de algo aquí?**  
-No. Ese botón suele aparecer cuando hay configuración de ejecución automatizada o detecta proyectos Node. En esta fase **no se usa**; ignóralo. (Si aún te aparece, revisa que no tengas `package.json` en la raíz.)
-
-**¿Cómo “abro” ejercicios progresivamente para el alumnado?**  
-Publica el repo con GitHub Pages y añade/enlaza cada ejercicio **cuando esté listo** en `docs/index.html`. Si quieres congelar versiones, usa **tags** (`ej-01`, `ej-02`, …).
 
 ---
 
