@@ -87,7 +87,7 @@ js-ejercicios/
 
 ---
 
-## ❓ FAQ
+## FAQ
 
 **¿Por qué no hay comandos `npm run` ni `package.json`?**  
 Porque estos ejercicios son **estáticos** y se pueden abrir directamente en el navegador. Cuando pasemos a proyectos con **TypeScript**, **módulos ES**, o frameworks, añadiremos de nuevo `package.json` y scripts (posiblemente con Vite).
@@ -100,7 +100,7 @@ Publica el repo con GitHub Pages y añade/enlaza cada ejercicio **cuando esté l
 
 ---
 
-## ⚖️ Licencia
+## Licencia
 
 - Todo el contenido de este repositorio (código y material didáctico) se publica bajo **Licencia MIT**.  
 - Esto significa que **cualquier persona** puede usar, copiar, modificar y redistribuir este contenido, con o sin fines comerciales, **siempre** que mantenga el aviso de copyright y la licencia.
@@ -111,7 +111,7 @@ Publica el repo con GitHub Pages y añade/enlaza cada ejercicio **cuando esté l
 
 ---
 
-## 🛠️ Requisitos (opcional)
+## Requisitos (opcional)
 
 - Cualquier **navegador moderno**.
 - (Para edición) **VSCode** con:
@@ -120,7 +120,7 @@ Publica el repo con GitHub Pages y añade/enlaza cada ejercicio **cuando esté l
 
 ---
 
-## 👤 Autoría
+## Autoría
 - Docente: *Juan RB*
-- Centro/Proyecto: *IES Lázaro Cárdenas*
+- Centro/Proyecto: *Apuntes DWEC - CFGS DAW *
 - Contacto: *[github.com/juramire](https://github.com/juramire)*
