@@ -1,11 +1,11 @@
-# Ejercicios de JavaScript, HTML y CSS (FP)
+# Ejercicios de JavaScript, HTML y CSS (CFGS DAW :: FP)
 
 Repositorio con ejercicios **básicos** de JavaScript, HTML y CSS para uso en clase y autoaprendizaje.  
-> ⚠️ No requiere instalación ni dependencias: **no hay Node, npm ni bundlers**.
+ No requiere instalación ni dependencias: **no hay Node, npm ni bundlers**.
 
 ---
 
-## 🔎 Cómo ver los ejercicios
+## Cómo ver los ejercicios
 
 ### Opción A) GitHub Pages (recomendado para el alumnado)
 - Página principal: **`https://<tuusuario>.github.io/js-ejercicios/`**
@@ -20,7 +20,7 @@ Repositorio con ejercicios **básicos** de JavaScript, HTML y CSS para uso en cl
 
 ---
 
-## 🧭 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 js-ejercicios/
@@ -51,7 +51,7 @@ js-ejercicios/
 
 ---
 
-## 📚 Índice de ejercicios (fase básica)
+## Índice de ejercicios (fase básica)
 
 1. **01 · Hola DOM** — Selección y modificación básica del DOM, manejo de eventos de clic.  
    `docs/ejercicios/01-hola-dom/`
