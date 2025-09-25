@@ -4,15 +4,98 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Ejercicios JS/HTML/CSS</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Ejercicios de Javascript - Juramire</h1>
-  <ol>
-    <li><a href="./ejercicios/01-hola-dom/index.html">01 · Hola DOM</a></li>
-    <li><a href="./ejercicios/02-lista-dinamica/index.html">02 · Lista dinámica</a></li>
-    <li><a href="./ejercicios/03-calculadora/index.html">03 · Calculadora</a></li>
-    <li><a href="./ejercicios/04-eventos/index.html">04 · Gestión de eventos</a></li>
-    <li><a href="./ejercicios/05-arrays/index.html">05 · Operaciones con arrays</a></li>
-  </ol>
+  
+  <h1>Ejercicios de Javascript agrupados por Unidades Didácticas</h1>
+  <section>
+    <h2>UD1. Selección de arquitecturas y herramientas</h2>
+    <p><strong>¿Por qué es importante?</strong> Entender cómo funciona la web y las herramientas que usamos es clave para cualquier desarrollador.<br>
+    <strong>RA/CE:</strong> Caracterizar ejecución cliente/servidor, conocer herramientas y la integración con HTML.<br>
+    <em>Ejemplo real:</em> Saber cuándo tu código JS se ejecuta en el navegador o en el servidor te ayuda a elegir la mejor solución para una web interactiva.</p>
+    <ul>
+      <li><a href="./ejercicios/UD1-L1-modelo-ejecucion-cliente-servidor/index.html">L1. Modelo de ejecución en cliente vs. servidor</a><br><small>¿Qué ocurre cuando visitas una web? Descubre la diferencia entre lo que ocurre en tu navegador y en el servidor.</small></li>
+      <li><a href="./ejercicios/UD1-L2-integracion-js-html/index.html">L2. Integración JS–HTML (etiquetas, carga diferida)</a><br><small>Aprende a insertar y cargar JS correctamente en tus páginas. <em>Ejemplo real:</em> Evita errores de scripts que se ejecutan antes de que exista el HTML.</small></li>
+      <li><a href="./ejercicios/UD1-L3-herramientas-y-librerias/index.html">L3. Herramientas (devtools, linters, control de versiones) y librerías/frameworks</a><br><small>Descubre cómo las herramientas profesionales te ayudan a programar mejor y más rápido. <em>Ejemplo real:</em> Usar la consola del navegador para depurar errores.</small></li>
+    </ul>
+  </section>
+  <section>
+    <h2>UD2. Sintaxis del lenguaje</h2>
+    <p><strong>¿Por qué es importante?</strong> Dominar la sintaxis de JS es la base para crear cualquier aplicación.<br>
+    <strong>RA/CE:</strong> Uso de variables, operadores, decisiones, bucles, documentación.<br>
+    <em>Ejemplo real:</em> Automatizar tareas, validar datos de usuario o crear juegos sencillos.</p>
+    <ul>
+      <li><a href="./ejercicios/UD2-L1-variables-tipos-conversiones/index.html">L1. Variables, ámbito y tipos; conversiones</a><br><small>Aprende a guardar y transformar datos. <em>Ejemplo real:</em> Convertir la entrada de un formulario en número para calcular un precio.</small></li>
+      <li><a href="./ejercicios/UD2-L2-operadores-y-expresiones/index.html">L2. Operadores y expresiones</a><br><small>Realiza cálculos y toma decisiones en tu código. <em>Ejemplo real:</em> Calcular descuentos o sumar puntuaciones en un juego.</small></li>
+      <li><a href="./ejercicios/UD2-L3-control-flujo-sentencias-bucles/index.html">L3. Control de flujo: sentencias, decisiones y bucles</a><br><small>Controla el orden de ejecución y repite acciones. <em>Ejemplo real:</em> Recorrer una lista de productos para mostrarlos en pantalla.</small></li>
+      <li><a href="./ejercicios/UD2-L4-comentarios-pruebas-documentacion/index.html">L4. Comentarios, pruebas y documentación</a><br><small>Documenta y prueba tu código para que sea comprensible y fiable. <em>Ejemplo real:</em> Añadir comentarios para que otros entiendan tu función de validación.</small></li>
+    </ul>
+  </section>
+  <section>
+    <h2>UD3. Objetos predefinidos y entorno navegador</h2>
+    <p><strong>¿Por qué es importante?</strong> Los objetos nativos y el entorno del navegador son la base para interactuar con la web.<br>
+    <strong>RA/CE:</strong> Identificar objetos, cambiar aspecto/documento, interacción usuario, cookies, depuración.<br>
+    <em>Ejemplo real:</em> Mostrar la fecha y hora actual en una web, guardar preferencias del usuario o depurar errores en el navegador.</p>
+    <ul>
+      <li><a href="./ejercicios/UD3-L1-objetos-nativos/index.html">L1. Objetos nativos (String, Number, Date, Math, Error…)</a><br><small>Utiliza los objetos que JS te ofrece de serie. <em>Ejemplo real:</em> Calcular la edad de una persona a partir de su fecha de nacimiento.</small></li>
+      <li><a href="./ejercicios/UD3-L2-bom-ventana-historial-temporizadores/index.html">L2. BOM: ventana, historial, temporizadores; generar HTML desde JS</a><br><small>Interactúa con la ventana del navegador y genera contenido dinámico. <em>Ejemplo real:</em> Mostrar un mensaje tras unos segundos o navegar entre páginas.</small></li>
+      <li><a href="./ejercicios/UD3-L3-almacenamiento-web/index.html">L3. Almacenamiento Web (cookies, localStorage, sessionStorage)</a><br><small>Guarda información en el navegador. <em>Ejemplo real:</em> Recordar el usuario logueado o las preferencias de idioma.</small></li>
+      <li><a href="./ejercicios/UD3-L4-depuracion-navegador/index.html">L4. Depuración en navegador</a><br><small>Aprende a encontrar y corregir errores usando las herramientas del navegador. <em>Ejemplo real:</em> Usar breakpoints para analizar el flujo de un formulario.</small></li>
+    </ul>
+  </section>
+  <section>
+    <h2>UD4. Arrays, funciones y objetos del usuario</h2>
+    <p><strong>¿Por qué es importante?</strong> Crear tus propias funciones, arrays y objetos te permite resolver problemas reales y estructurar tu código.<br>
+    <strong>RA/CE:</strong> Crear/usar funciones, arrays y objetos definidos por el usuario.<br>
+    <em>Ejemplo real:</em> Gestionar una lista de tareas, calcular estadísticas o modelar usuarios en una app.</p>
+    <ul>
+      <li><a href="./ejercicios/UD4-L1-funciones/index.html">L1. Funciones (declaración, expresión, arrow, parámetros)</a><br><small>Define y usa funciones para reutilizar código. <em>Ejemplo real:</em> Crear una función para calcular el IVA de un producto.</small></li>
+      <li><a href="./ejercicios/UD4-L2-arrays-operaciones-agregadas/index.html">L2. Arrays y operaciones agregadas (map, filter, reduce)</a><br><small>Trabaja con listas de datos y realiza operaciones complejas de forma sencilla. <em>Ejemplo real:</em> Filtrar productos por precio o sumar cantidades.</small></li>
+      <li><a href="./ejercicios/UD4-L3-objetos-usuario/index.html">L3. Objetos: propiedades, métodos, patrones básicos</a><br><small>Crea tus propios tipos de datos. <em>Ejemplo real:</em> Modelar un usuario con nombre, email y métodos para actualizar su perfil.</small></li>
+      <li><a href="./ejercicios/UD4-L4-diseno-depuracion/index.html">L4. Diseño y depuración</a><br><small>Organiza y mejora tu código para que sea mantenible. <em>Ejemplo real:</em> Refactorizar una función larga en varias más pequeñas y probarlas.</small></li>
+    </ul>
+  </section>
+  <section>
+    <h2>UD5. Interacción: eventos y formularios</h2>
+    <p><strong>¿Por qué es importante?</strong> La interacción con el usuario es la esencia de la web moderna.<br>
+    <strong>RA/CE:</strong> Capturar/utilizar eventos, validar formularios, usar regex, probar/documentar.<br>
+    <em>Ejemplo real:</em> Validar un formulario de registro o mostrar mensajes cuando el usuario interactúa con la página.</p>
+    <ul>
+      <li><a href="./ejercicios/UD5-L1-modelo-eventos/index.html">L1. Modelo de eventos (captura/burbujeo, addEventListener)</a><br><small>Gestiona eventos de usuario de forma eficiente. <em>Ejemplo real:</em> Detectar cuándo el usuario hace clic en un botón y responder a ello.</small></li>
+      <li><a href="./ejercicios/UD5-L2-formularios-validacion-envio/index.html">L2. Formularios: lectura, validación y envío; prevención de acciones</a><br><small>Lee y valida datos de formularios antes de enviarlos. <em>Ejemplo real:</em> Evitar que se envíe un formulario si hay errores.</small></li>
+      <li><a href="./ejercicios/UD5-L3-expresiones-regulares/index.html">L3. Expresiones regulares para validación robusta</a><br><small>Valida datos complejos como emails o contraseñas. <em>Ejemplo real:</em> Comprobar que un email tiene el formato correcto.</small></li>
+    </ul>
+  </section>
+  <section>
+    <h2>UD6. DOM</h2>
+    <p><strong>¿Por qué es importante?</strong> El DOM es la puerta de entrada para modificar cualquier página web desde JS.<br>
+    <strong>RA/CE:</strong> Identificar objetos del modelo, acceder/alterar estructura, asociar eventos, independencia de capas.<br>
+    <em>Ejemplo real:</em> Añadir elementos a una lista sin recargar la página o cambiar el estilo de un elemento al pulsar un botón.</p>
+    <ul>
+      <li><a href="./ejercicios/UD6-L1-dom-recorrido-seleccion/index.html">L1. Recorrido y selección (querySelector, colecciones)</a><br><small>Selecciona y recorre elementos del DOM. <em>Ejemplo real:</em> Resaltar todos los enlaces de una página.</small></li>
+      <li><a href="./ejercicios/UD6-L2-dom-creacion-modificacion/index.html">L2. Creación y modificación dinámica (createElement, classList, estilos)</a><br><small>Crea y modifica elementos sobre la marcha. <em>Ejemplo real:</em> Añadir tareas a una lista interactiva.</small></li>
+      <li><a href="./ejercicios/UD6-L3-dom-delegacion-accesibilidad/index.html">L3. Delegación de eventos y accesibilidad</a><br><small>Gestiona eventos de forma eficiente y accesible. <em>Ejemplo real:</em> Delegar eventos en listas dinámicas.</small></li>
+      <li><a href="./ejercicios/UD6-L4-dom-compatibilidad-capas/index.html">L4. Compatibilidad y separación de capas (contenido/estilo/comportamiento)</a><br><small>Separa correctamente HTML, CSS y JS. <em>Ejemplo real:</em> Cambiar el tema de la web sin tocar el HTML.</small></li>
+    </ul>
+  </section>
+  <section>
+    <h2>UD7. Comunicación asíncrona</h2>
+    <p><strong>¿Por qué es importante?</strong> La comunicación asíncrona permite crear aplicaciones web modernas y dinámicas.<br>
+    <strong>RA/CE:</strong> Analizar mecanismos asíncronos, formatos, compatibilidad, uso de librerías.<br>
+    <em>Ejemplo real:</em> Cargar datos de un servidor sin recargar la página o mostrar mensajes de error si falla la conexión.</p>
+    <ul>
+      <li><a href="./ejercicios/UD7-L1-fetch-promesas-async/index.html">L1. fetch, Promesas y async/await; estados y errores</a><br><small>Realiza peticiones a servidores y gestiona respuestas. <em>Ejemplo real:</em> Mostrar noticias actualizadas desde una API.</small></li>
+      <li><a href="./ejercicios/UD7-L2-json-actualizacion-dom/index.html">L2. JSON y actualización dinámica del DOM</a><br><small>Trabaja con datos en formato JSON y actualiza la web en tiempo real. <em>Ejemplo real:</em> Mostrar una lista de usuarios obtenida de un servidor.</small></li>
+      <li><a href="./ejercicios/UD7-L3-cors-compatibilidad-librerias/index.html">L3. CORS, compatibilidad, librerías y pruebas</a><br><small>Gestiona la seguridad y compatibilidad de tus peticiones. <em>Ejemplo real:</em> Usar una librería para consumir APIs externas.</small></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Extras</h2>
+    <ul>
+      <li><a href="./ejercicios/extras-particularidades-js/index.html">Particularidades de JavaScript</a></li>
+      <li><a href="./ejercicios/extras-errores-comunes/index.html">Errores comunes en JavaScript</a></li>
+    </ul>
+  </section>
 </body>
 </html>
